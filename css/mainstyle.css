@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+.navbar li{
+	display: inline;
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-size: 20px;
+}
+
+navbar-inverse .navbar-nav .active  a {
+  font-color: lime;
+}
+
+.jumbotron {
+	height: 800px;
+	background: transparent;
+	margin-top: auto;	
+	padding-top: 50px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 50px;
+}
+

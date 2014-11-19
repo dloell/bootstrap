@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>THM IBS Hausübung 1</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <!--  load own stylesheet -->
+	<link href="css/mainstyle.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,8 +18,48 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  	<!--  navigationbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+    	<div class="container">
+    		<!--  side's brand-->
+    		<a href="#" class="navbar-brand">THM - IBS Hausübung 1 - David Löll</a>
+    		
+    		<!-- button for mobile navigation -->
+    		<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+    			<!-- add bootstrap navbar icon -->
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    		</button>
+    		<!-- navigation -->
+    		<div class="collapse navbar-collapse navHeaderCollapse">
+    			<ul class= "nav navbar-nav navbar-right">
+    				<li class="active"><a href="#">Willkommen</a></li>
+    				<!--  add links as dropdown-meue -->
+    				<li class="dropdown">
+    					<!-- add dropdown name and arrow-->
+    					<a href="#" class = "dropdown-toggle" data-toggle = "dropdown">Links<b class="caret"></b></a>
+    					<ul class="dropdown-menu">
+    						<li><a href="http://www.codecademy.com/d.loell">Mein Codecademy Profile</a></li>
+    					</ul>
+    				</li>
+    				<li><a href="#">Suchformular</a></li>
+    				<li><a href="#">Impressung</a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </nav>
+    
 
+    <!-- add jumbotron  -->
+   	<div class="jumbotron">
+    	<div class="container">
+    		<div class="thumbnail">   					
+    			<img src="http://www.taw.de/cms_taw/file.phtml?disp=show&Slfdnr=3602" widht="auto" height="auto">
+    		</div>  			
+    		<p>Diese Homepage wurde als Hausübung des Kurses "Internebasierte Systeme" im Wintersemester 2014/2015 erstellt.</p> 			 	
+    	</div>			 	
+   </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
