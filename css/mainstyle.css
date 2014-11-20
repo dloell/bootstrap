@@ -17,7 +17,34 @@ navbar-inverse .navbar-nav .active  a {
 }
 
 .jumbotron .container {
+	margin-top: 50px;
 	position: relative;
-	top: 50px;
+	margin-bottom: 50px;
+}
+
+#impressung {
+	background-color: #96d563;
+	color: white;
+	height: 120px;
+	margin-top: auto;	
+	padding-top: 50px;
+}
+
+#impressung .container {
+	top: 0px;
+	position: relative;
+}
+
+.thumbnail {
+	margin-top: 24px;
+}
+
+tr td h4 {
+	margin-top: 5px;
+}
+
+.divider {
+	margin-top: 35px;
+	
 }
 
