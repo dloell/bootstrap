@@ -13,7 +13,7 @@ navbar-inverse .navbar-nav .active  a {
 	height: 800px;
 	background: transparent;
 	margin-top: auto;	
-	padding-top: 50px;
+	padding-top: 0px;
 }
 
 .jumbotron .container {
@@ -23,11 +23,15 @@ navbar-inverse .navbar-nav .active  a {
 }
 
 #impressung {
-	background-color: #96d563;
+	background-color: #6EBA28;
 	color: white;
-	height: 120px;
+	height: 170px;
 	margin-top: auto;	
-	padding-top: 50px;
+	padding-top: 0px;
+}
+
+#impressung h1{
+	font-size: 120px;
 }
 
 #impressung .container {
