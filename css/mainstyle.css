@@ -1,40 +1,45 @@
 @CHARSET "UTF-8";
-.navbar li{
-	display: inline;
-	/*font-family: "Times New Roman", Times, serif;*/
-	font-size: 20px;
+.navbar {
+	margin-bottom: 0px;
 }
 
-navbar-inverse .navbar-nav .active  a {
-  font-color: lime;
+.navbar li{
+	display: inline;
 }
 
 .jumbotron {
-	height: 800px;
-	background: transparent;
-	margin-top: auto;	
-	padding-top: 0px;
+	background-image:
+		url('http://goo.gl/nPdp0l');
+	height: 70%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: white;
+	background-position: center;
 }
 
 .jumbotron .container {
-	margin-top: 0px;
 	position: relative;
-	margin-bottom: 50px;
+	top: 100px;
 }
 
-#impressung {
+.jumbotron p {
+	position: relative;
+}
+
+.jumbotronText {
 	background-color: #6EBA28;
 	color: white;
-	height: 170px;
+	height: 140px;
 	margin-top: auto;	
 	padding-top: 0px;
 }
 
-#impressung h1{
-	font-size: 120px;
+.jumbotronText h1{
+	font-size: 70px;
+	padding-top: 12px;
 }
 
-#impressung .container {
+.jumbotronText .container {
 	top: 0px;
 	position: relative;
 }
@@ -52,3 +57,11 @@ tr td h4 {
 	
 }
 
+fieldset {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.searchbar {
+	width: 600px;
+}

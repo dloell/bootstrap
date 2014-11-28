@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>THM IBS Hausübung</title>
+<title>THM IBS Hausübung - Suchformular</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 			<!-- navigation -->
 			<div class="collapse navbar-collapse" id="navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Willkommen <span class="sr-only">(current)</span></a></li>
+					<li><a href="index.html">Willkommen <span class="sr-only">(current)</span></a></li>
 					<!--  add links as dropdown-meue -->
 					<li class="dropdown">
 						<!-- add dropdown name and arrow--> 
@@ -48,21 +48,33 @@
 							<li><a href="http://www.codecademy.com/d.loell">Mein Codecademy Profile</a></li>
 						</ul>
 					</li>
-					<li><a href="suchformular.html">Suchformular</a></li>
+					<li class="active"><a href="#">Suchformular</a></li>
 					<li><a href="impressung.html">Impressung</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<!-- add jumbotron  -->
-	<div class="jumbotron">
+	<!-- add jumbotron -->
+	<div class="jumbotronText">
 		<div class="container">
-			<p>Diese Homepage wurde als Hausübung des Kurses "Internebasierte Systeme" im Wintersemester 2014/2015 erstellt.</p>	
+			<h1>Wikipedia-Suche</h1>
 		</div>
 	</div>
 
-
+	<!--add searchformular-->
+	<section role="search">
+		<div id="container">
+			<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+		  		<fieldset>
+		    		<!--<legend>Wikipedia-Suche</legend>-->
+		    		<input class="searchbar" type="text" name="search" value=""/>
+		    		<button class="btn_art" type="submit" name="go" aria-label="Artikel">Artikel</button>
+		    		<button class="btn_vol" type="submit" name="fulltext" aria-label="Volltextsuche">Volltextsuche</button>
+		  		</fieldset>
+			</form>
+		</div>
+	</section>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script
