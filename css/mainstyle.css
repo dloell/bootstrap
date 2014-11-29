@@ -7,7 +7,7 @@
 	display: inline;
 }
 
-.jumbotron {
+/*.jumbotron {
 	background-image:
 		url('http://goo.gl/nPdp0l');
 	height: 70%;
@@ -15,37 +15,46 @@
 	background-size: contain;
 	background-color: white;
 	background-position: center;
-}
+}*/
 
-.jumbotron .container {
-	position: relative;
-	top: 100px;
-}
-
-.jumbotron p {
-	position: relative;
-}
-
-.jumbotronText {
+.jumbotron {
 	background-color: #6EBA28;
 	color: white;
-	height: 140px;
+	height: 150px;
 	margin-top: auto;	
 	padding-top: 0px;
 }
 
-.jumbotronText h1{
-	font-size: 70px;
-	padding-top: 12px;
+.jumbotron h1{
+	font-size: 60px;
+	padding-top: 16px;
 }
 
-.jumbotronText .container {
+.jumbotron p{
+	color: black;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+}
+
+.jumbotron .container {
 	top: 0px;
 	position: relative;
 }
 
-.thumbnail {
-	margin-top: 24px;
+.jumbotron .row {
+	height: 150px;
+}
+
+.jumbotron div .col-md-6{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 150px;
+	background-color: #6EBA28;
+}
+
+.jumbotron img{
+	height: 120px;
 }
 
 tr td h4 {
@@ -54,14 +63,35 @@ tr td h4 {
 
 .divider {
 	margin-top: 35px;
-	
 }
 
 fieldset {
 	margin-top: 20px;
 	text-align: center;
+	position: relative;
+}
+
+fieldset button {
+	margin-top: 10px;
 }
 
 .searchbar {
-	width: 600px;
+	width: 100%;
+	position: relative;
+	display: block;
 }
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
