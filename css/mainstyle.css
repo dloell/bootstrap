@@ -5,7 +5,6 @@
 
 .navbar li{
 	display: inline;
-	color: #999999;
 }
 
 /*.jumbotron {
@@ -27,8 +26,8 @@
 }
 
 .jumbotron h1{
-	font-size: 60px;
-	padding-top: 16px;
+	font-size: 50px;
+	padding-top: 30px;
 }
 
 .jumbotron p{
@@ -36,6 +35,7 @@
 	text-align: center;
 	padding-top: 15px;
 	font-size: 25px;
+	background-color: #6EBA28;
 }
 
 .jumbotron .container {
@@ -80,24 +80,99 @@ fieldset button {
 	width: 100%;
 	position: relative;
 	display: block;
-} 
+}
 
 .footer p {
 	text-align: center;
 	margin-top: 10px;
 }
 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 1183px) {
+	#jumboRow.jumbotron{
+		height: 170px;
+	}
 
+	.jumbotron img{
+		height: 140px;
+	}
 
+	.jumbotron p{
+		padding-top: 4px;
+	}
+}
 
-/* Large desktop */
-@media (min-width: 1200px) { ... }
+/*Large desktop */
+@media (min-width: 1203px) {
+	#jumboRow.jumbotron{
+		height: 170px;
+	}
+
+	.jumbotron img{
+		height: 140px;
+	}
+
+	.jumbotron p{
+		padding-top: 25px;
+	}
+}
  
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { ... }
+@media (max-width: 1202px) {
+	#jumboRow.jumbotron{
+		height: 170px;
+	}
+
+	.jumbotron img{
+		height: 140px;
+	}
+
+	.jumbotron p{
+		padding-top: 4px;
+	}
+}
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
+@media (max-width: 991px) { 
+	#jumboRow.jumbotron{
+		height: 300px;
+	}
+
+	.jumbotron img{
+		height: 130px;
+	}
+	
+	.jumbotron p{
+		padding-top: 15px;
+	}
+}
  
 /* Landscape phones and down */
-@media (max-width: 480px) { ... }
+@media (max-width: 616px) {
+	#jumboRow.jumbotron{
+		height: 320px;
+	}
+
+	.jumbotron img{
+		height: 130px;
+	}
+	
+	.jumbotron p{
+		padding-top: 5px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 470px) {
+	#jumboRow.jumbotron {
+		height: 350px;
+	}
+
+	.jumbotron img{
+		height: 130px;
+	}
+	
+	.jumbotron p{
+		padding-top: 5px;
+	}
+}
