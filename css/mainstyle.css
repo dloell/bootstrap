@@ -80,6 +80,11 @@ fieldset button {
 	width: 100%;
 	position: relative;
 	display: block;
+} 
+
+.footer p {
+	text-align: center;
+	margin-top: 10px;
 }
 
 

@@ -40,17 +40,17 @@
 			<!-- navigation -->
 			<div class="collapse navbar-collapse" id="navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">Willkommen <span class="sr-only">(current)</span></a></li>
+					<li aria-label="Willkommen"><a href="index.html">Willkommen <span class="sr-only">(current)</span></a></li>
 					<!--  add links as dropdown-meue -->
 					<li class="dropdown">
 						<!-- add dropdown name and arrow--> 
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Codecademy <em class="caret"></em></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="http://www.codecademy.com/d.loell">Mein Codecademy Profile</a></li>
+							<li aria-label="Mein Codecademy Profile"><a href="http://www.codecademy.com/d.loell">Mein Codecademy Profile</a></li>
 						</ul>
 					</li>
-					<li class="active"><a href="#">Suchformular</a></li>
-					<li><a href="impressung.html">Impressung</a></li>
+					<li class="active" aria-label="Suchformular"><a href="#" >Suchformular</a></li>
+					<li aria-label="Impressung"><a href="impressung.html" >Impressung</a></li>
 				</ul>
 			</div>
 		</div>
@@ -77,6 +77,14 @@
 			</form>
 		</div>
 	</section>
+
+	<div class="footer">
+		<div class="container">
+			<p><a href="http://wave.webaim.org/report#/http://davidloell.cloudcontrolled.com/suchformular.html#" title="Explanation of WCAG 2.0 Level Triple-A Conformance">
+  				<img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0">
+  			</a></p>
+		</div>
+	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

@@ -40,17 +40,17 @@
 			<!-- navigation -->
 			<div class="collapse navbar-collapse" id="navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">Willkommen</a></li>
+					<li aria-label="Willkommen"><a href="index.html">Willkommen <span class="sr-only">(current)</span></a></li>
 					<!--  add links as dropdown-meue -->
 					<li class="dropdown">
 						<!-- add dropdown name and arrow--> 
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Codecademy <em class="caret"></em></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="http://www.codecademy.com/d.loell">Mein Codecademy Profile</a></li>
+							<li aria-label="Mein Codecademy Profile"><a href="http://www.codecademy.com/d.loell">Mein Codecademy Profile</a></li>
 						</ul>
 					</li>
-					<li><a href="suchformular.html">Suchformular</a></li>
-					<li class="active"><a href="#">Impressung <span class="sr-only">(current)</span></a></li>
+					<li aria-label="Suchformular"><a href="suchformular.html" >Suchformular</a></li>
+					<li class="active" aria-label="Impressung" ><a href="#" >Impressung</a></li>
 				</ul>
 			</div>
 		</div>
@@ -169,7 +169,7 @@
 			<p class="divider"></p>
 		</div>
 	</div>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<noscript>No ajax-script files found</noscript>
