@@ -93,6 +93,16 @@ fieldset button {
 	text-decoration: none;
 }
 
+/* Jonathan Bunke, 2014_11_30: add css for BackToTop btn */
+.btn-BackToTop,
+.btn-BackToTop:hover,
+.btn-BackToTop:focus,
+.btn-BackToTop:active {
+	border-color: #6EBA28;
+	background-color: #6EBA28;
+	color: white;
+}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 1183px) {
 	#jumboRow.jumbotron{
