@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <!--  load own stylesheet -->
 <link href="css/mainstyle.css" rel="stylesheet">
+
+<script type='text/javascript' src='script.js'></script>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -51,6 +53,7 @@
 					</li>
 					<li aria-label="Suchformular"><a href="suchformular.html" >Suchformular</a></li>
 					<li aria-label="Impressung"><a href="impressung.html" >Impressung</a></li>
+					<li aria-label="Sencha Touch App"><a href="ClockTimer/index.html" >Sencha Touch App</a></li>
 				</ul>
 			</div>
 		</div>
@@ -71,23 +74,32 @@
 	</div>
 
 	<!-- add colums for content-->
-		<div class="container">
-			<div class="col-md-4">
+	<div class="container">
+		<div class="row" id='jqSlide'>
+			<div class="col-md-6" >
 				<h1>Codecademy</h1>
 				<h4>Mein Profil</h4>
 				<p><a href="http://www.codecademy.com/d.loell" id="link">Ansehen</a></p>		
 			</div>
-			<div class="col-md-4">		
+			<div class="col-md-6" id='jq_slide'>		
 				<h1>Pull Request</h1>
 				<h4>für meine Webseite</h4>
 				<p><a href="https://github.com/dloell/bootstrap/pull/4" id="link">Ansehen</a></p>		
 			</div>
-			<div class="col-md-4">
+		</div>
+		<div class="row">
+			<div class="col-md-6" id='jq_slide'>			
 				<h1>Pull Request</h1>
 				<h4>als Reviewer</h4>
 				<p><a href="https://github.com/Mesax/studium/pull/2" id="link">Ansehen</a></p>		
 			</div>
+			<div class="col-md-6" id='jq_slide'>			
+				<h1>Sencha Touch</h1>
+				<h4>Timer App</h4>
+				<p><a href="ClockTimer/index.html" id="link">Ansehen</a></p>		
+			</div>
 		</div>
+	</div>	
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
