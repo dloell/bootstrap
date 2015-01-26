@@ -12,6 +12,12 @@
 <link href="css/bootstrap-theme.min.css" rel="stylesheet" >
 <!--  load own stylesheet -->
 <link href="css/mainstyle.css" rel="stylesheet">
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type='text/javascript' src='script.js'></script>
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -66,21 +72,21 @@
 
 	<!--add searchformular-->
 	<section role="search">
-		<div class="container">
+		<div class="container" id="jq_slide_left">
 			<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
 		  		<fieldset>
 		    		<legend>Wikipedia-Suche</legend>
 		    		<label for="search">Suchbegriff:</label>
 		    		<input  type="text" class="searchbar" name="search" id="search" value=""/>
-		    		<button type="submit" class="btn_art" name="go" aria-label="Artikel">Artikel</button>
-		    		<button type="submit" class="btn_vol" name="fulltext" aria-label="Volltextsuche">Volltextsuche</button>
+		    		<button type="submit" class="btn_art" name="go"  aria-label="Artikel">Artikel</button>
+		    		<button type="submit" class="btn_vol" name="fulltext"   aria-label="Volltextsuche">Volltextsuche</button>
 		  		</fieldset>
 			</form>
 		</div>
 	</section>
 
 	<div class="footer">
-		<div class="container">
+		<div class="container" id="jq_bounce" >
 			<p><a href="http://wave.webaim.org/report#/http://davidloell.cloudcontrolled.com/suchformular.html#" title="Explanation of WCAG 2.0 Level Triple-A Conformance">
   				<img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0">
   			</a></p>
@@ -88,7 +94,7 @@
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
 	<noscript>No ajax-script files found</noscript>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
