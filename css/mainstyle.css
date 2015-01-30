@@ -92,6 +92,10 @@ fieldset button {
 	text-decoration: none;
 }
 
+.search {
+	display: inline;
+}
+
 /* Jonathan Bunke, 2014_11_30: add css for BackToTop btn */
 .btn-BackToTop,
 .btn-BackToTop:hover,
